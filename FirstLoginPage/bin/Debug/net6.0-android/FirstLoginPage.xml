@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FirstLoginPage</name>
+    </assembly>
+    <members>
+        <member name="P:FirstLoginPage.ViewModel.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:FirstLoginPage.ViewModel.BaseViewModel._isBusy"/>
+        </member>
+        <member name="P:FirstLoginPage.ViewModel.BaseViewModel.Title">
+            <inheritdoc cref="F:FirstLoginPage.ViewModel.BaseViewModel._title"/>
+        </member>
+        <member name="P:FirstLoginPage.ViewModel.LoginPageViewModel.UserName">
+            <inheritdoc cref="F:FirstLoginPage.ViewModel.LoginPageViewModel._userName"/>
+        </member>
+        <member name="P:FirstLoginPage.ViewModel.LoginPageViewModel.Password">
+            <inheritdoc cref="F:FirstLoginPage.ViewModel.LoginPageViewModel._password"/>
+        </member>
+    </members>
+</doc>

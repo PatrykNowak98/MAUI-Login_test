@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="FirstLoginPage.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:FirstLoginPage"
+    xmlns:views="clr-namespace:FirstLoginPage.Views"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="MainPage" />
+
+
+    <FlyoutItem Route="HomePage" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Home" ContentTemplate="{DataTemplate views:HomePage}"/>
+        <ShellContent Title="Contact" ContentTemplate="{DataTemplate views:ContactPage}"/>
+        <ShellContent Title="About" ContentTemplate="{DataTemplate views:AboutPage}"/>
+    </FlyoutItem>
+    
+    
+
+</Shell>
